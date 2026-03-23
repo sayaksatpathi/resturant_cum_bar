@@ -7,6 +7,7 @@ import { Gallery } from "./components/Gallery";
 import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { WhatsAppChat } from "./components/WhatsAppChat";
 
 export default function App() {
   return (
@@ -20,6 +21,11 @@ export default function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsAppChat
+        phoneNumber="7043577723"
+        defaultCountryCode="91"
+        message="Hello! I’d like to make a reservation. Could you please share available timings and table options?"
+      />
     </div>
   );
 }
