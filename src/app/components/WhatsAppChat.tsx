@@ -40,7 +40,7 @@ export function WhatsAppChat({
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 left-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#C9A84C] text-[#0D0D0D] shadow-lg transition-all duration-300 hover:bg-[#E6C76A] hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C9A84C] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D0D0D]"
+      className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#C9A84C] text-[#0D0D0D] shadow-lg transition-all duration-300 hover:bg-[#E6C76A] hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C9A84C] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D0D0D]"
     >
       <WhatsAppIcon fontSize="large" />
     </a>
